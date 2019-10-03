@@ -252,7 +252,8 @@
                 <h6>Let's have a chat!</h6>
             </div>
 
-            <form action="#" data-aos="fade-up" data-aos-delay="200">
+            <form action="https://mailthis.to/maverov@gmail.com"
+            method="POST" encType="multipart/form-data" data-aos="fade-up" data-aos-delay="200">
                 <label for="name">Name:</label>
                 <input type="text" class="mb" id="name" name="name" placeholder="Enter your name..." required>
 
@@ -268,8 +269,9 @@
                     <option value="">Other</option>
                 </select>
 
-                <label for="subject">Subject:</label>
-                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <label for="_subject">Subject:</label>
+                <textarea name="_subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="hidden" name="_confirmation" value="Thanks! :)">
                 <input type="submit" value="Submit">
             </form>
         </div>
