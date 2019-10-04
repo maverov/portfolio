@@ -27,3 +27,6 @@ $(document).ready(function () {
         once: true
     });
 });
+
+let currentYear = document.getElementById("year");
+currentYear.innerHTML = new Date().getFullYear();
